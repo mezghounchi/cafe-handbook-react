@@ -1,4 +1,4 @@
-
+"use client"
 import React from 'react';
 import TeamCard from '../TeamCard';
 import { TEAM_MEMBERS } from '../../constants';
@@ -7,7 +7,7 @@ const Chapter3: React.FC = () => {
   return (
     <>
       <h2 className="text-4xl font-extrabold text-[#8B5E3C] mb-6 pb-3 border-b-2 border-[#EAE0D5]">فصل سوم: تیم ما و نقش‌ها</h2>
-      
+
       <h3 className="text-2xl font-bold text-[#4A3F35] mt-8 mb-4">۳-۱: با تیم ما آشنا شو!</h3>
       <p className="mb-8 text-lg leading-9 text-[#5f5349]">موفقیت ما نتیجه‌ی کار تیمی و هماهنگی آدماییه که با عشق و انرژی کار می‌کنن. اینجا با چهره‌های دوست‌داشتنی خانواده‌ی کافه فردوسی آشنا می‌شی:</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
@@ -21,19 +21,19 @@ const Chapter3: React.FC = () => {
           />
         ))}
       </div>
-      
+
       <h3 className="text-2xl font-bold text-[#4A3F35] mt-12 mb-4">۳-۲: نقش‌ها در کافه فردوسی</h3>
       <p className="text-lg leading-9 text-[#5f5349]">تیم ما از نقش‌ها و وظایf مختلفی تشکیل شده تا عملکرد مجموعه همیشه هماهنگ و بی‌نقص باشه:</p>
 
       <h4 className="text-xl font-bold text-[#4A3F35] mt-8 mb-4">تیم راهبری:</h4>
       <p className="text-lg leading-9 text-[#5f5349]">رهبری و هدایت کلی مجموعه. مسئولیت نهایی تمام امور از جمله مدیریت مالی، رضایت مشتریان، استخدام و آموزش، و مهم‌تر از همه، پشتیبانی و رهبری تیم.</p>
-      
+
       <h4 className="text-xl font-bold text-[#4A3F35] mt-8 mb-4">مدیر داخلی:</h4>
       <p className="text-lg leading-9 text-[#5f5349]">انجام کارهای اجرایی روزمره، هماهنگی‌های مورد نیاز بین بخش‌ها، تهیه مواد اولیه و مهم‌تر از همه، بودن به عنوان گوش شنوای اعضای تیم و رسیدگی به دغدغه‌هایشان.</p>
 
       <h4 className="text-xl font-bold text-[#4A3F35] mt-8 mb-4">سالن‌دار (میزبان):</h4>
       <p className="text-lg leading-9 text-[#5f5349]">خط مقدم ارتباط با مهمانان. مسئول خوشامدگویی، گرفتن سفارش، ارائه سرویس بی‌نقص و همچنین حفظ پاکیزگی و آراستگی همیشگی سالن برای فراهم کردن فضایی دلنشین برای مهمانان.</p>
-      
+
       <h4 className="text-xl font-bold text-[#4A3F35] mt-8 mb-4">سرپرست بار:</h4>
       <p className="text-lg leading-9 text-[#5f5349]">متخصص و مدیر بخش بار. مسئول کنترل کیفیت تمام نوشیدنی‌ها، مدیریت موجودی بار، آموزش باریستاها و بارتندرها و خلق آیتم‌های جدید.</p>
 

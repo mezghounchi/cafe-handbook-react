@@ -1,4 +1,4 @@
-
+"use client"
 import React, { useState, useEffect, useRef } from 'react';
 
 // This interface is needed because the default `beforeinstallprompt` event is not in standard DOM types yet.
@@ -34,7 +34,7 @@ const PwaPopups: React.FC = () => {
             const handleServiceWorker = async () => {
                 try {
                     const registration = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
-                    
+
                     registration.addEventListener('updatefound', () => {
                         const newWorker = registration.installing;
                         if (newWorker) {
@@ -93,7 +93,7 @@ const PwaPopups: React.FC = () => {
         }
         setShowInstallPopup(false);
     };
-    
+
     const handleUpdate = () => {
         navigator.serviceWorker.getRegistration().then(reg => {
             if (reg && reg.waiting) {
@@ -105,7 +105,7 @@ const PwaPopups: React.FC = () => {
 
     return (
         <>
-            <div 
+            <div
                 ref={installPopupRef}
                 className={`fixed top-0 left-1/2 w-11/12 max-w-sm bg-white p-3 rounded-b-xl shadow-lg flex items-center justify-between transition-transform duration-300 ease-in-out z-50 ${showInstallPopup ? '' : 'hidden'}`}
                 style={{ transform: 'translate(-50%, -150%)' }}
@@ -120,7 +120,7 @@ const PwaPopups: React.FC = () => {
                 </div>
             </div>
 
-            <div 
+            <div
                 ref={updatePopupRef}
                 className={`fixed top-0 left-1/2 w-11/12 max-w-sm bg-blue-600 text-white p-3 rounded-b-xl shadow-lg flex items-center justify-between transition-transform duration-300 ease-in-out z-50 ${showUpdatePopup ? '' : 'hidden'}`}
                 style={{ transform: 'translate(-50%, -150%)' }}

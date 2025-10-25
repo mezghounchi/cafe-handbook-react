@@ -1,4 +1,4 @@
-
+"use client"
 import React from 'react';
 
 const Chapter5: React.FC = () => {
@@ -6,7 +6,7 @@ const Chapter5: React.FC = () => {
         <>
             <h2 className="text-4xl font-extrabold text-[#8B5E3C] mb-6 pb-3 border-b-2 border-[#EAE0D5]">فصل پنجم: هنر میزبانی</h2>
             <p className="text-lg leading-9 text-[#5f5349]">تمام چیزهایی که تا الان در مورد فرهنگ، ارزش‌ها و تیم‌مون خوندیم، مثل کوک کردن سازهامون قبل از اجرا بود. اما اینجا، صحنه‌ی اصلی اجرای ماست. این فصل جاییه که تمام اون باورها و هماهنگی‌ها به عمل تبدیل می‌شن و هنر میزبانی ما، یه فنجون قهوه رو به یه خاطره‌ی خوب تبدیل می‌کنه.</p>
-            
+
             <h3 className="text-2xl font-bold text-[#4A3F35] mt-8 mb-4">سفر مهمان</h3>
             <ol className="list-decimal pr-8 space-y-4">
                 <li className="text-lg leading-9 text-[#5f5349]"><strong>استقبال:</strong> به محض ورود مهمان، با لبخند به استقبالش می‌ریم و تا یه میز مناسب همراهی‌ش می‌کنیم.</li>
