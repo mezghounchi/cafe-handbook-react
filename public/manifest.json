@@ -1,0 +1,29 @@
+{
+    "name": "Ferdowsi Cafe Team Handbook",
+    "short_name": "فردوسی‌یار",
+    "description": "A modern web application that serves as a comprehensive handbook for the team at Ferdowsi Cafe, outlining the company's values, culture, team roles, and operational guidelines.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FDF8F0",
+    "theme_color": "#FDF8F0",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/icons/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/icons/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/icons/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ]
+  }
+  

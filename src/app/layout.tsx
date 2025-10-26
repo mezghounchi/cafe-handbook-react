@@ -60,6 +60,14 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <link rel="manifest" href="/manifest.json" />
+                <meta name="mobile-web-app-capable" content="yes" />
+                <meta name="apple-mobile-web-app-capable" content="yes" />
+                <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+                <meta name="apple-mobile-web-app-title" content="فردوسی‌یار" /> 
+                <meta name="theme-color" content="#FDF8F0" />
+            </head>
         <body className={`${vazirmatn.variable} antialiased`}>
         {children}
         </body>
