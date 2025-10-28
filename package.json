@@ -6,6 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "dev-s": "next dev --experimental-https",
     "lint": "eslint"
   },
   "dependencies": {

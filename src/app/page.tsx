@@ -10,6 +10,7 @@ import Chapter3 from './components/chapters/Chapter3';
 import Chapter4 from './components/chapters/Chapter4';
 import Chapter5 from './components/chapters/Chapter5';
 import Chapter6 from './components/chapters/Chapter6';
+import PwaPopups from "@/app/components/PwaPopups";
 
 const chapterComponents: Record<ChapterId, React.ComponentType> = {
     chapter1: Chapter1,
@@ -88,6 +89,7 @@ export default function Home() {
                     {ActiveChapterComponent ? <ActiveChapterComponent/> : <p>Component not found</p>}
                 </div>
             </main>
+            <PwaPopups />
         </div>
     );
 }
