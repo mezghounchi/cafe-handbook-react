@@ -12,8 +12,19 @@ const withPWA = withPWAInit({
   aggressiveFrontEndNavCaching: true,
   reloadOnOnline: true,
   workboxOptions: {
-    disableDevLogs: true
+    disableDevLogs: true,
+    runtimeCaching: [
+      {
+        urlPattern: /^https?.*/, // همه روت‌ها و assetها
+        handler: "NetworkFirst",
+        options: {
+          cacheName: "offlineCache",
+          expiration: { maxEntries: 200 },
+        },
+      },
+    ],
   }
+  
 });
 
 const nextConfig: NextConfig = {
