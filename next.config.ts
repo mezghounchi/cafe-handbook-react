@@ -27,7 +27,7 @@ const withPWA = withPWAInit({
   
 });
 
-const nextConfig: NextConfig = {
+const nextConfig: any = {
   /* اگه تنظیمات دیگه‌ای برای Next.js داشتی، اینجا می‌ذاری */
   eslint: {
     // هشدار می‌ده ولی build رو متوقف نمی‌کنه
