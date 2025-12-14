@@ -28,12 +28,11 @@ const withPWA = withPWAInit({
 });
 
 const nextConfig: any = {
-  /* اگه تنظیمات دیگه‌ای برای Next.js داشتی، اینجا می‌ذاری */
+  // این خط باعث میشه موقع بیلد، ارورهای ESLint نادیده گرفته بشن
   eslint: {
-    // هشدار می‌ده ولی build رو متوقف نمی‌کنه
     ignoreDuringBuilds: true,
   },
-    outputFileTracingRoot: __dirname
+  // اگر تنظیمات دیگه مثل images داری اینجا اضافه کن
 };
 
 
