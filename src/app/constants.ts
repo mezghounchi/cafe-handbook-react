@@ -38,6 +38,12 @@ export const TEAM_MEMBERS: TeamMember[] = [
     { name: 'حامد حدائق', description: 'عاشق پرسنل، قهوه و بادام هندی. ناهی خرید جدید وقتی که تند راه می‌رود، مشکل‌گشای امور و ریزبین وقتی که راه نمی‌رود.', imgSrc: '/pics/Hamed.jpg', alt: 'عکس حامد' },
     { name: 'نیکتا بیات', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس نیکتا بیات' },
     { name: 'کیمیا یگانه', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس کیمیا یگانه' },
-    { name: 'سحر فتحی', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس سحر فتحی' },
+    { name: 'آنوک فتحی', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس آنوک فتحی' },
+    { name: 'صبا رستگار', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس صبا رستگار' },
+    { name: 'ثمین صادق‌زاده', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس ثمین صادق‌زاده' },
+    { name: 'آیدا توسلی', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس آیدا توسلی' },
+    { name: 'آیناز کیوان‌فرد', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس آیناز کیوان‌فرد' },
+    { name: 'بیتا روحانی', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس بیتا روحانی' },
+    { name: 'دانیال نجم‌الدینی', description: 'عضو جدید', imgSrc: 'https://placehold.co/128x128/C3A38A/4A3F35?text=?', alt: 'عکس دانیال نجم‌الدینی' },
     
   ];
